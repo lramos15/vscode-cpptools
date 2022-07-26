@@ -63,7 +63,7 @@ suite("Common Utility validation", () => {
             } finally {
                 delete process.env[processKey];
             }
-            assert.equal(actual, "foobar");
+            assert.equal(actual, "foobarTestFail");
         });
 
         test("env input", () => {
